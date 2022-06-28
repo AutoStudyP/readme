@@ -1,5 +1,6 @@
 # sourcecode
-'''
+
+
 import cv2
 import sys
 import time
@@ -84,4 +85,4 @@ video_capture.release()
 cv2.destroyAllWindows()
 if platform.system() == 'Darwin': #맥
     cv2.waitKey(1)
-    '''
+    
